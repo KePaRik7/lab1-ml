@@ -1,0 +1,43 @@
+# Виртуальное окружение
+lab1_env/
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Данные (обычно не коммитят, если они большие)
+# data/*.xlsx
+# data/*.csv
+# data/*.png
+
+# Результаты работы (генерируются заново)
+output/
+
+# Кэш
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Отчёт (если не хотите хранить в репо)
+# Отчет_Лаб1_Вариант5.docx
